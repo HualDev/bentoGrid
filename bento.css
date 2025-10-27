@@ -28,7 +28,10 @@ body{
 main{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+}
+
+section{
+    margin-bottom: 2rem;
 }
 
 .tittle{
@@ -211,6 +214,13 @@ h2{
     width: 70%;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .create{
     background-color: var(--yellow100);
     border-radius: 1rem;
@@ -254,4 +264,106 @@ footer{
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem 2rem;
+}
+
+@media (min-width: 768px){
+    
+    main{
+        display: grid;
+        grid-template-rows: repeat(3, 30vh);
+        grid-template-columns: repeat(4, 25vh);
+        gap: 1rem;
+    }
+    section{
+        margin-bottom: 0.5rem;
+    }
+
+    .tittle{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .central-tittle{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 0.8rem;
+    }
+
+    .multiple-accounts{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    .follows{
+        font-size: 0.7rem;
+    }
+
+    .maintain{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .maintain h2{
+        font-size: 1.3rem;
+    }
+
+    .schedule{
+        grid-column: 4;
+        grid-row: 1 / 3;
+    }
+
+    .schedule p{
+        font-size: 0.7rem;
+    }
+
+    .grow-follows{
+        grid-column: 3 / 5;
+        grid-row: 3;
+    }
+    .grow-follows p{
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .follows{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faster-audience{
+        grid-column: 2/3;
+        grid-row: 3;
+        padding: 1rem;
+    }
+    .faster-audience h2{
+        font-size: 2rem;
+    }
+
+    .faster-audience p{
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+
+    .faster-audience img{
+        width: 100%;
+    }
+
+    .left{
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin: 0;justify-content: space-between;
+        margin-right: 1rem;
+    }
+
 }

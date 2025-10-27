@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [HualDev](https://github.com/HualDev/BlogPreviewCard)
-- Live Site URL: [BlogPreviewCard](https://hualdev.github.io/BlogPreviewCard/)
+- Solution URL: [HualDev](https://github.com/HualDev/bentoGrid)
+- Live Site URL: [BentoGRID](https://hualdev.github.io/bentoGrid/)
 
 ## My process
 
@@ -55,7 +55,7 @@ The process to solve this challenge was: in first time I use HTML to ubicate all
 
 ### What I learned
 
-With this challenge I learned about Flexbox and the DOM JS. I improve my knowledge in CSS, very special in Flexbox
+With this challenge I learned about Flexbox, GRID and the DOM JS. I improve my knowledge in CSS, very special in Flexbox and GRID.
 
 ### Continued development
 
@@ -66,4 +66,4 @@ I´d like to continue improve about Flexbox and Grid, I hope deepen my knowledge
 
 - Website - [Hualdo](https://hualdevportafolio.netlify.app)
 - Frontend Mentor - [@HualDev](https://www.frontendmentor.io/profile/Hualdev)
-- Twitter - [@Hualdev](https://www.twitter.com/hualde
+- Twitter - [@Hualdev](https://www.twitter.com/hualdev

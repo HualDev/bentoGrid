@@ -105,6 +105,10 @@ h3{
     align-items: center;
 }
 
+.icon{
+    color: var(--purple500);
+}
+
 h2{
     font-size: 1.4rem;
     font-weight: 500;
@@ -364,6 +368,10 @@ footer{
         grid-row: 1/4;
         margin: 0;justify-content: space-between;
         margin-right: 1rem;
+    }
+
+    footer{
+        width: 100vh;
     }
 
 }
